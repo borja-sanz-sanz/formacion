@@ -1,0 +1,19 @@
+{
+  "name": "dia1javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "dev:operadores": "node operadores.js",
+    "dev:funciones": "node funciones.js",
+    "build": "node index.js",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "packageManager": "pnpm@8.14.3+sha1.872b21adeaae4e71acd5c551ba848d927d6aa446"
+}

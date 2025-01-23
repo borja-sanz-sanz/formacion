@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="cambiarColor">Cambiar Color</button>
+    <ul id="lista"></ul>
+    <button id="añadirLista">Añadir a la lista</button>
+
+    <script>
+        document.getElementById('cambiarColor').addEventListener("click", function(){
+            document.body.style.backgroundColor =  "#"+Math.floor(Math.random()*16777215).toString(16);
+        })
+
+        document.getElementById('añadirLista').addEventListener("click", () => { 
+            let li = document.createElement("li");
+            li.textContent = "Nuevo elemento";
+            document.getElementById("lista").appendChild(li);
+        })
+
+    </script>
+    
+</body>
+</html>
