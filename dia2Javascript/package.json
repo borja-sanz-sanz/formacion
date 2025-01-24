@@ -1,0 +1,17 @@
+{
+  "name": "dia2javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:objetos": "node ./objetos.js",
+    "dev:arrays": "node ./arrays.js",
+    "dev:templateliterals": "node ./templateliterals.js",
+    "dev:spread": "node ./spread.js",
+    "dev:modules": "node ./modules.js",
+    "dev:asincroniayeventos": "node ./asincroniayeventos.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
