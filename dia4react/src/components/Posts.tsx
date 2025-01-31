@@ -69,7 +69,6 @@ export const Posts = () => {
             return (
               <React.Fragment key={`post-${index}`}>
                 <div>
-                  {" "}
                   Titulo del post: {post.title}
                   <br />
                   <button onClick={() => handleEditPost(post)}>

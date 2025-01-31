@@ -1,3 +1,4 @@
+import { AuthApp } from "./components/Auth/AuthApp"
 import { Context } from "./components/Context/Context"
 import { Posts } from "./components/Posts"
 import { AppContext } from "./components/Theme/AppContext"
@@ -13,6 +14,7 @@ function App() {
    {/*  <Posts/> */}
    <Context/>
    <AppContext /> 
+   <AuthApp/>
 </>
 
   )

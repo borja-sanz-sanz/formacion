@@ -16,7 +16,7 @@ export const UseEffect = () => {
     useEffect(() => {
         console.log('Contador se ha modificado')
      /*    return () => {
-            //Codigo que se ejecuta en la destruccion del componente
+            Codigo que se ejecuta en la destruccion del componente
             console.log('El componente se ha desmontado')
         } */
     }, [contador])

@@ -21,7 +21,7 @@ function App() {
   }
 
   return (<>
-  <MiPrimerComponente/>
+  <MiPrimerComponente /> 
   <MiSegundoComponente />
   <Saludar nombre={'Borja'}></Saludar>
   <MostrarProducto product={producto} />
