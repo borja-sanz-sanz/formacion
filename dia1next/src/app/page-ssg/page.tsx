@@ -1,6 +1,5 @@
-export default async function Page() {
-  const response = await fetch("https://randomuser.me/api/?results=5");
-  const data = await response.json();
+import { User } from "./_components/User";
 
-  return <>{JSON.stringify(data)}</>;
+export default async function Page() {
+  return <User />;
 }
