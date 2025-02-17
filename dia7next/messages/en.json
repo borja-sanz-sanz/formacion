@@ -1,0 +1,12 @@
+{
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page"
+    },
+    "ContactPage": {
+        "name": "name",
+        "address": "address",
+        "surname": "surname",
+        "email": "email"
+    }
+}

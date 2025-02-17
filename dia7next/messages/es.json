@@ -1,0 +1,12 @@
+{
+    "HomePage": {
+        "title": "Hola mundo",
+        "about": "Ir a la página de información"
+    },
+    "ContactPage": {
+        "name": "Nombre",
+        "address": "direccion",
+        "surname": "apellidos",
+        "email": "email"
+    }
+}
