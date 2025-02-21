@@ -1,7 +1,12 @@
 import { createElement } from "react";
-import { LAYOUT_ONE_COL_HEADER, LAYOUT_TWO_COL } from "./constants";
+import {
+  LAYOUT_ONE_COL,
+  LAYOUT_ONE_COL_HEADER,
+  LAYOUT_TWO_COL,
+} from "./constants";
 import { OneColHeader } from "./sections/OneColHeader/OneColHeader";
 import { TwoCol } from "./sections/TwoCol/TwoCol";
+import { OneCol } from "./sections/OneCol/OneCol";
 
 type LayoutBuilderProps = {
   layout_builder__layout: any;
@@ -18,6 +23,8 @@ export const LayoutBuilder = ({
             return <OneColHeader components={data.components} />;
           case LAYOUT_TWO_COL:
             return <TwoCol components={data.components} />;
+          case LAYOUT_ONE_COL:
+            return <OneCol components={data.components} />;
           default:
             return <>Layout {data.layout_id} is not defined yet</>;
         }
